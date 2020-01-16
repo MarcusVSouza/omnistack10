@@ -1,0 +1,8 @@
+{
+  "name": "omniStack10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MarcusVSouza/omnistack10.git",
+  "author": "Marcus Souza",
+  "license": "MIT"
+}
