@@ -2,6 +2,7 @@ import React from 'react';
 import './global.css';
 import './app.css';
 import './Sidebar.css'
+import './Main.css'
 
 function App() {
   return (
@@ -30,11 +31,59 @@ function App() {
 							<input name="longitude" id="longitude" required/>
 						</div>
         </div>
-				<button types="submit">Salvar</button>
+				<button type="submit" className="btn-save">Salvar</button>
         </form>
       </aside>
       <main>
+					<ul>
+						<li className="dev-item">
+								<header>
+									<img src="https://avatars0.githubusercontent.com/u/31137287?s=460&v=4" alt="Marcus Souza"/>
+									<div className="user-info">
+										<strong>Marcus Souza</strong>
+										<strong>ReactJS, NodeJS, CSS3, HTML5</strong>
+									</div>
+								</header>
+								<p>Técnico em eletrônica, desenvolvedor de jogos nas horas vagas, iniciando a jornada no mundo do desenvolvimento web.</p>
+								<a href="https://github.com/MarcusVSouza">Acessar perfil no Github </a>
+						</li>
 
+						<li className="dev-item">
+								<header>
+									<img src="https://avatars0.githubusercontent.com/u/31137287?s=460&v=4" alt="Marcus Souza"/>
+									<div className="user-info">
+										<strong>Marcus Souza</strong>
+										<strong>ReactJS, NodeJS, CSS3, HTML5</strong>
+									</div>
+								</header>
+								<p>Técnico em eletrônica, desenvolvedor de jogos nas horas vagas, iniciando a jornada no mundo do desenvolvimento web.</p>
+								<a href="https://github.com/MarcusVSouza">Acessar perfil no Github </a>
+						</li>
+
+						<li className="dev-item">
+								<header>
+									<img src="https://avatars0.githubusercontent.com/u/31137287?s=460&v=4" alt="Marcus Souza"/>
+									<div className="user-info">
+										<strong>Marcus Souza</strong>
+										<strong>ReactJS, NodeJS, CSS3, HTML5</strong>
+									</div>
+								</header>
+								<p>Técnico em eletrônica, desenvolvedor de jogos nas horas vagas, iniciando a jornada no mundo do desenvolvimento web.</p>
+								<a href="https://github.com/MarcusVSouza">Acessar perfil no Github </a>
+						</li>
+
+						<li className="dev-item">
+								<header>
+									<img src="https://avatars0.githubusercontent.com/u/31137287?s=460&v=4" alt="Marcus Souza"/>
+									<div className="user-info">
+										<strong>Marcus Souza</strong>
+										<strong>ReactJS, NodeJS, CSS3, HTML5</strong>
+									</div>
+								</header>
+								<p>Técnico em eletrônica, desenvolvedor de jogos nas horas vagas, iniciando a jornada no mundo do desenvolvimento web.</p>
+								<a href="https://github.com/MarcusVSouza">Acessar perfil no Github </a>
+						</li>
+					</ul>
       </main>
     </div>
   );
